@@ -8,8 +8,8 @@ We gathered data from Finnish Meteorological institue (Ilmantieteenlaitos) and a
 
 From the graph we can see that our model takes seasonality account in a lovely way and we seem to have exactly 16.4cm snow depth during Christmas eve. 95% confidence interavals...
 
-```{image} ../images/fun-fish.png
-:alt: fishy
+```{image} ../images/photo_2022-10-04_13-21-10.jpg
+:alt: graph1
 :class: bg-primary mb-1
 :width: 200px
 :align: center
