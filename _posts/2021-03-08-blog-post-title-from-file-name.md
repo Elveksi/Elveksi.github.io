@@ -1,32 +1,16 @@
-## Blog Post Title From First Header
+## How does this work?
 
-Due to a plugin called `jekyll-titles-from-headings` which is supported by GitHub Pages by default. The above header (in the markdown file) will be automatically used as the pages title.
-
-If the file does not start with a header, then the post title will be derived from the filename.
-
-This is a sample blog post. You can talk about all sorts of fun things here.
+We gathered data from Finnish Meteorological institue (Ilmantieteenlaitos) and all the data is from certain obeservation station, which is Helsinki-Vantaa airport. Data is from the beginning of 1960 to -. We used SARIMA machine learning model to predict snow depth in December. SARIMA name comes from S=seasonal, AR=autoregressive, I = intergrated and MA=moving average. Basically, model learns seasonality of snow depth from previous years and use that to predict snow depth in the future. We provide prediction for Christmas eve and confidence intervals for the snow depth. 
 
 ---
 
-### This is a header
+### Results and interpretation
 
-#### Some T-SQL Code
+From the graph we can see that our model takes seasonality account in a lovely way and we seem to have exactly 16.4cm snow depth during Christmas eve. 95% confidence interavals...
 
-```tsql
-SELECT This, [Is], A, Code, Block -- Using SSMS style syntax highlighting
-    , REVERSE('abc')
-FROM dbo.SomeTable s
-    CROSS JOIN dbo.OtherTable o;
-```
-
-#### Some PowerShell Code
-
-```powershell
-Write-Host "This is a powershell Code block";
-
-# There are many other languages you can use, but the style has to be loaded first
-
-ForEach ($thing in $things) {
-    Write-Output "It highlights it using the GitHub style"
-}
+```{image} ../images/fun-fish.png
+:alt: fishy
+:class: bg-primary mb-1
+:width: 200px
+:align: center
 ```
