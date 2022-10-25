@@ -1,3 +1,4 @@
+# Let it snow
 
 This blog post is for enthusiastic snow or Christmas individuals who eagerly wish to know the snow situation during December. We have predicted snow depth for the becoming December in Helsinki. After reading this blog post you can already begin to plan your Christmas holidays in advance: can you stay comfortably in Helsinki or do you need to buy tickets to the Lapland? One less thing to worry about before Christmas, isn't that awesome <3
 
